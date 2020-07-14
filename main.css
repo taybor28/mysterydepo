@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+div {
+  background: url("assets/freedom.jpg") no-repeat center;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  color: #333;
+  line-height: 1.5;
+}
+.title {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 2.5rem;
+  padding: 3rem 3rem 0 3rem;
+  font-weight: 100;
+}
+.name {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  padding: 3rem 3rem 0 3rem;
+}
+
