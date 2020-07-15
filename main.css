@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-div {
+body {
   background: url("assets/freedom.jpg") no-repeat center;
   text-align: center;
   height: 100vh;
@@ -13,6 +13,20 @@ div {
 }
 .title {
   font-family: 'Julius Sans One', sans-serif;
+  font-size: 2.0rem;
+  padding: 3rem 3rem 0 3rem;
+  font-weight: 100;
+}
+.name {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.0rem;
+  font-style: italic;
+  padding: 3rem 3rem 0 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 2.5rem;
   padding: 3rem 3rem 0 3rem;
   font-weight: 100;
@@ -22,5 +36,30 @@ div {
   font-size: 1.2rem;
   font-style: italic;
   padding: 3rem 3rem 0 3rem;
+  }
+}
+@media screen and (min-width: 1400px){
+  .title {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 2.5rem;
+  padding: 10rem 10rem 0 10rem;
+  font-weight: 100;
+}
+.name {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  padding: 5rem;
+  }
 }
 
+footer {
+  display: inline-flex;
+  position: absolute;
+  bottom: 0;
+  right: 5rem;
+  margin-bottom: 5rem;
+}
+div {
+  margin-right: 1rem;
+}
